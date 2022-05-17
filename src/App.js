@@ -1,14 +1,24 @@
 
 import './App.css';
+import photo from './photo.png'
 
 function App() {
   return (
     <div className="Main">
-      <div className="NavBar">
-Navbar
-      </div>
+      <nav className="NavBar">
+       
+          
+<a href='Info'>Info</a>
+<a href='Projects'>Projects</a>
+<a href='Skils'>Skils</a>
+<a href='Footer'>Contact Me</a>
+  
+      </nav>
       <div className='Info'>
-        info
+        <h1>Information About Me</h1>
+        <img src={photo} alt="portfolio photo">
+        </img>
+        
       </div>
       <div className='Projects'>
         experience work
