@@ -16,7 +16,7 @@ function App() {
       </nav>
       <div className='Info'>
         <h1>Information About Me</h1>
-        <img src={photo} alt="portfolio photo">
+        <img src={photo} alt="portfolio">
         </img>
         
       </div>
